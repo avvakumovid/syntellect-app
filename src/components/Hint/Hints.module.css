@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+
+.hint {
+    display: flex;
+    padding: 0px 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    border-color: #61dafb;
+    color: #fff;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.name>span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.flag {
+    width: 30px;
+}
